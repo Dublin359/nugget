@@ -1,0 +1,72 @@
+@media (min-width:1024px) and (max-width:1330px){
+    .kakel{
+        width: 55%;
+    }
+    .smoldiv{
+        width: 40%;
+    }
+    .smalldiv{
+        width: 60%;
+        background-position: center;
+    }
+    .p2{
+        font-size: 55px;
+        width: 100%;
+    }
+    .p1{
+        width: 100%;
+    }
+    .fishrod{
+        display: none;
+    }
+    .jav img {
+        width: 83%;
+    }
+    .jav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gav{
+        margin-right: 30px;
+    }
+    .hr{
+        width: 390px;
+    }
+    .rh{
+        width: 350px;
+    }
+    .hh{
+        width: 390px;
+    }
+    .gav{
+        height: 575px;
+    }
+    .pAblo{
+        font-size: 70px;
+    }
+    .asg img{
+        width: 850px;
+    }
+    .reaper{
+        height: 85vh;
+    }
+    .notdiv{
+        margin-top: 18vh;
+    }
+    .bn{
+        width: 57%;
+    }
+    .bb{
+        width: 49%;
+    }
+    .nb{
+        width: 56%;
+    }
+    .bobthelobster{
+        margin-top: 160px;
+    }
+    .lobthelobster{
+        width: 18%;
+    }
+}

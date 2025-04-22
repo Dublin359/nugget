@@ -1,0 +1,121 @@
+@media (min-width:768px) and (max-width:1023px){
+    .aligator{
+        justify-content: center;
+    }
+    .kakel{
+        width: 68%;
+    }
+    .smoldiv{
+        width: 100%;
+    }
+    .bigdiv{
+        flex-direction: column;
+    }
+    .cheese5{
+        width: 50%;
+    }
+    .smildiv{
+        width: auto;
+    }
+    .smalldiv{
+        display: none;
+    }
+    .fifthboba{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .divdiv1{
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .p2{
+        width: 100%;
+        text-align: center;
+    }
+    .p1{
+        width: 85%;
+        text-align: center;
+    }
+    .divdiv2{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .rickroll{
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+    }
+    .batonP{
+        margin-top: 40px;
+    }
+    .fishrod img{
+        width: 550px;
+    }
+    .jav{
+        display: none;
+    }
+    .suop{
+        display: none;
+    }
+    .borshch{
+        flex-direction: column;
+    }
+    .dvd{
+        width: 100%;
+    }
+    .antidvd img{
+        width: 75%;
+    }
+    .antidvd{
+        display: flex;
+        justify-content: center;
+    }
+    .pAblo{
+        margin-bottom: 25px;
+    }
+    .asg img{
+        width: 95%;
+    }
+    .asg{
+        display: flex;
+        justify-content: center;
+    }
+    .orgi1_5{
+        width: auto;
+    }
+    .reaper{
+        height: 68vh;
+    }
+    .notasection{
+        flex-direction: column;
+    }
+    .nediv{
+        width: 100%;
+        margin-top: 0;
+    }
+    .joker{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .batman{
+        text-align: center;
+    }
+    .notdiv{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 3vh;
+    }
+    .feet{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .lobthelobster{
+        width: 25%;
+    }
+}

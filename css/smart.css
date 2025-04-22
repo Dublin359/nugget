@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.dpf{
+    margin: auto;
+    width: 100%;
+    background-color: #2f2f2f;
+    color: white;
+    text-align: center;
+    height: 40px;
+    position: relative;
+}
+#check-menu{
+    display: none;
+}
+.labels{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.labels{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    z-index: 2;
+    cursor: pointer;
+}
+.burger-line{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    transition: 0.5s;
+}
+.second2, .third3{
+    top: 18px;
+}
+.four4{
+    top: 28px;
+}
+.main-manu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform:translateY(100%) ;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.btext{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #252525;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.705) ;
+    border-top: 1px solid #252525;
+}
+.btext:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #FFC600;
+}
+#check-menu:checked ~ .main-manu{
+    max-height: 500px;
+    font-size: 16px;
+}
+#check-menu:checked ~ .first1{
+    display: none;
+}
+#check-menu:checked ~ .four4{
+    display: none;
+}
+#check-menu:checked ~ .second2{
+    transform: rotate(45deg);
+}
+#check-menu:checked ~ .third3{
+    transform: rotate(-45deg);
+}
+.labels img{
+    width: 30px;
+    margin-right: 5px;
+}
+@media (min-width:0px) and (max-width:767px){
+    .fish{
+        display: none;
+    }
+    .dpf{
+        display: block ;
+    }
+    .smalldiv{
+        display: none;
+    }
+    .smoldiv{
+        width: 100%;
+        justify-content: center;
+    }
+    .fishstick{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .smildiv{
+        width: 78%;
+    }
+    .batonparent2{
+        margin-left: 0;
+        margin-top: 65px;
+    }
+    .fifthboba{
+        display: flex!important;
+        height: 600px;
+        justify-content: center;
+    }
+    .fishrod{
+        display: block!important;
+    }
+    .rickoll img{
+        width: 100px!important;
+        display: none!important;
+    }
+    .divdiv1{
+        margin:0 0 0 0 ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p1{
+        width: 100%;
+        text-align: center;
+    }
+    .p2{
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+    }
+    .divdiv2{
+        display: none;
+    }
+    .fishrod img{
+        width: 80%;
+    }
+    .fisj{
+        font-size: 50px;
+        padding-top: 60px;
+    }
+    .piblo{
+        width: 75%;
+    }
+    .bobbuilder{
+        display: block!important;
+        height: auto;
+    }
+    .jav img{
+        display: none;
+    }
+    .urg{
+        display: flex;
+        flex-direction: column;
+    }
+    .urg label{
+        text-align: center;
+    }
+    .urg{
+        width: 100%;
+        margin-left: 0;
+    }
+    .jav{
+        margin-right:0;
+    }
+    .gav{
+        width: 100%;
+    }
+    .hr , .rh , .hh{
+        width: 85%;
+        margin-left:0;
+        margin: auto;
+    }
+    .urgi{
+        display: flex;
+        flex-direction: column;
+    }
+    .urgi textarea{
+        width: 85%;
+    }
+    .urgi label{
+        margin-left: 0;
+        text-align: center;
+    }
+    .borshch{
+        display: flex!important;
+        height: auto;
+        flex-direction: column;
+    }
+    .dvd{
+        width: 95%;
+    }
+    .Pablo{
+        font-size: 26px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .pAblo{
+        text-align: center;
+        font-size: 50px;
+    }
+    .antidvd img{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .v{
+        font-size: 50px;
+    }
+    .reaper{
+        display: flex!important;
+        height: 560px;
+    }
+    .orgi{
+        font-size: 50px;
+    }
+    .orgi1_5{
+        font-size: 30px;
+        width: 100%;
+    }
+    .asg{
+        display: flex;
+        justify-content: center;
+    }
+    .asg img{
+        width: 90%;
+    }
+    .notasection{
+        display: flex!important;
+        flex-direction: column;
+        height: 1000px;
+    }
+    .nediv{
+        width: 85%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .suop{
+        display: none!important;
+    }
+    .batman{
+        margin-top: 10px;
+    }
+    .notdiv{
+        width: 100%;
+        margin-top: 0;
+    }
+    .inpute{
+        width: 80%;
+    }
+    .gonediv{
+        margin-left: 17%;
+    }
+    .nodiv{
+        margin-top: 50px;
+    }
+    .feet{
+        height: 700px;
+        padding: 0 0 0 0;
+    }
+    .spoku{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .pi{
+        text-align: center;
+    }
+    .pipi{
+        width: 120%;
+    }
+    .negood{
+        margin: auto;
+    }
+    .l{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .bobthelobster{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .fi{
+        text-align: center;
+    }
+    .lobthelobster{
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 35px;
+    }
+    .uiuaa{
+        text-align: center;
+    }
+    .notdiv{
+        margin-bottom: 0;
+        width: 95%;
+        margin: auto;
+    }
+    
+}
