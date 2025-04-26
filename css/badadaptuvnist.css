@@ -72,4 +72,11 @@
     .lobthelobster{
         width: 18%;
     }
+    .fishstick{
+        line-height: 65px;
+        font-size: 60px;
+    }
+    .fish a{
+        font-size: 20px;
+    }
 }
